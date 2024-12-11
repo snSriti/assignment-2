@@ -58,7 +58,7 @@
         margin-left: 0px;
     }
     /* change */
-    .section-title {
+    .change-title {
         width: 475px;
     }
     .change-body {
@@ -71,6 +71,11 @@
         height: 319px;
         object-fit: cover;
     }
+    .run-body {
+        gap: 88px;
+        padding: 41px 35px 41px 35px;
+    }
+    /* bmi */
     .bmi-content {
         grid-template-columns: repeat(1,1fr);
         grid-gap: 42px;
@@ -82,6 +87,9 @@
     .footer {
         display: block;
         justify-content: space-between;
+    }
+    .footer-title {
+        margin-bottom: 102px;
     }
 }
 /* SM Small Device :320px. */
