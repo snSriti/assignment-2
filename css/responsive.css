@@ -1,0 +1,172 @@
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+      }
+      br{
+        display: none;
+      }
+      .btn-primary {
+        padding: 16px 10px 16px 10px;
+        font-size: 18px;
+        font-weight: 600;
+        width: 65%;
+    }
+    .btn-secondary {
+        padding: 16px 10px 16px 16px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+      .fa-bars{
+        display:visible;
+        width: 24px;
+        color: #fff;
+      }
+      .nav-item{
+        display: none;
+      }
+      .header{
+        padding-top: 52px;
+      }
+    .hero-body h2 {
+        font-size: 36px;
+        width: 285px;
+    }
+    .hero-body p {
+        width: 274px;
+    }
+    .banner-part {
+        height: 90vh;
+    }
+    .hero{
+        display: block;
+    }
+    .banner img {
+        width: 100%;
+    }
+    .badge {
+        width: 155px;
+        height: 72px;
+        left: 55px;
+    }
+    .bottom-left {
+        margin-left: -36px;
+        padding:  21px 17px 21px 17px ;
+        align-items: center;
+        top: 85%;
+    }
+    .top-right {
+        Top: 66%;
+        margin-left: 147px;
+    }
+    .circle {
+        height: 30px;
+        width: 30px;
+    }
+    .badge h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .badge-text span {
+        font-size: 12px;
+    }
+    .section-title h1 {
+        font-size: 32px;
+    }
+    .change-body {
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 58px;
+    }
+    .for-desk{
+        display: none;
+    }
+    .for-res, .for-res br, .single-run h1 br{
+        display: inline;
+        
+    }
+    .run-body {
+        display: block;
+        padding: 31px 33px 31px 33px;
+    }
+    .single-run h1 {
+        font-size: 32px;
+    }
+    .single-run {
+        width: 287px;
+    }
+    .run img {
+        width: 100%;
+        height: 100%;
+        margin-top: 31px;
+    }
+    .left-title {
+        width: 331px;
+    }
+    .bmi-title {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .bmi-content {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 42px;
+    }
+    .single-bmi h1, .calculate h1{
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    /* training */
+    .block-desk{
+        visibility: visible;
+      }
+    .img-3, .img-6, .res-for {
+        display: none;
+      }
+      .img-1, .img-2, .img-4, .img-5{
+        height: 139px;
+    }
+    .img-1{
+        grid-column: span 5;
+    }
+    .img-2{
+        grid-column: span 7;
+    }
+    .img-4{
+        grid-column: span 7;
+    }
+    .img-5{
+        grid-column: span 5;
+    }
+    .img-1 h2, .img-5 h2 {
+        margin-top: 95px;
+    }
+    .calculate p {
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .input-field {
+        width: 50%;
+    }
+    .input-field {
+        width: 100%;
+    }
+    .single-members {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer {
+        display: block;
+    }
+    .footer-items {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 39px;
+    }
+    .footer-title {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
