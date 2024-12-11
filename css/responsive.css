@@ -1,7 +1,49 @@
 
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-
+    .container {
+        max-width: 100%;
+        padding: 0 30px;
+      }
+      .nav-item ul li {
+        margin-right: 20px;
+    }
+    .header {
+        padding-top: 52px;
+    }
+    .fa-bars {
+        display: none;
+    }
+    /* banner */
+    .hero {
+        display: block;
+    }
+    .badge {
+        width: 155px;
+        height: 72px;
+        left: 55px;
+    }
+    .bottom-left {
+        margin-left: -36px;
+        padding:  21px 17px 21px 17px ;
+        align-items: center;
+        top: 85%;
+    }
+    .top-right {
+        Top: 66%;
+        margin-left: 147px;
+    }
+    .circle {
+        height: 30px;
+        width: 30px;
+    }
+    .badge h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .badge-text span {
+        font-size: 12px;
+    }
 }
 /* SM Small Device :320px. */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -16,7 +58,7 @@
         padding: 16px 10px 16px 10px;
         font-size: 18px;
         font-weight: 600;
-        width: 65%;
+        width: 50%;
     }
     .btn-secondary {
         padding: 16px 10px 16px 16px;
@@ -109,7 +151,7 @@
         width: 331px;
     }
     .bmi-title {
-        width: 100%;
+        width: 350px;
         margin-left: 20px;
     }
     .bmi-content {
