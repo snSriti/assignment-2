@@ -8,9 +8,6 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-/* img{
-  width: 100%;
-} */
 :root {
     --btn-logo-color: rgb(230, 83, 60);
     --head-color: rgb(255, 255, 255);
