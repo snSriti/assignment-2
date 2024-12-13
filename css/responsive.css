@@ -112,6 +112,11 @@
         font-size: 18px;
         font-weight: 600;
     }
+    /* banner */
+    .banner {
+        display: flex;
+        justify-content: center;
+    }
       .fa-bars{
         display:visible;
         width: 24px;
@@ -123,36 +128,36 @@
       .header{
         padding-top: 52px;
       }
-    .hero-body h2 {
+      .hero-body h2 {
         font-size: 36px;
-        width: 285px;
+        width: 50%;
     }
     .hero-body p {
-        width: 274px;
+        width: 50%;
     }
     .banner-part {
-        height: 90vh;
+        height: 100vh;
     }
     .hero{
         display: block;
-    }
-    .banner img {
-        width: 100%;
     }
     .badge {
         width: 155px;
         height: 72px;
         left: 55px;
     }
+    .badge-text {
+        margin-left: 0;
+    }
     .bottom-left {
-        margin-left: -36px;
-        padding:  21px 17px 21px 17px ;
+        margin-left: 12%;
+        padding: 21px 17px 21px 17px;
         align-items: center;
-        top: 85%;
+        top: 94%;
     }
     .top-right {
         Top: 66%;
-        margin-left: 147px;
+        margin-left: 44%;
     }
     .circle {
         height: 30px;
@@ -246,6 +251,9 @@
     }
     .single-members {
         grid-template-columns: repeat(1,1fr);
+    }
+    .member-1, .member-2, .member-3, .member-4{
+        background-position: top;
     }
     .footer {
         display: block;
